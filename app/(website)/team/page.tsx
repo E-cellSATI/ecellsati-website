@@ -27,6 +27,8 @@ const Team = ({}: Props) => {
   }, [])
 
   const elementRef: MutableRefObject<HTMLImageElement | null> = useRef(null)
+  const [point, setPoint] = useState({ x: 0, y: 0 })
+
 
   return (
     <>
