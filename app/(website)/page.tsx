@@ -89,9 +89,6 @@ export default function Home() {
       {/* top view section  */}
       <Topview />
 
-      {/* know more section  */}
-      <Knowmore />
-
       {/* swiper section  */}
       <Swipe />
 

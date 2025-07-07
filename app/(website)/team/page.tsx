@@ -27,46 +27,6 @@ const Team = ({}: Props) => {
   }, [])
 
   const elementRef: MutableRefObject<HTMLImageElement | null> = useRef(null)
-  const [point, setPoint] = useState({ x: 0, y: 0 })
-
-  let tags = [
-    {
-      name: 'Anekant Jain',
-      position: 'Tech Representative',
-      x: '45.6640625',
-      y: '66.05142325409187',
-    },
-    {
-      name: 'Aanya Joshi',
-      position: 'Member',
-      x: '48.0078125',
-      y: '78.28282821276956',
-    },
-    {
-      name: 'Rahul Harode',
-      position: 'Member',
-      x: '58.6640625',
-      y: '70.05142325409187',
-    },
-    {
-      name: 'Harsh Gupta',
-      position: 'Tech Representative',
-      x: '38.4640625',
-      y: '62.05142325409187',
-    },
-    {
-      name: 'Mitali Deshmukh',
-      position: 'Member',
-      x: '75.0078125',
-      y: '78.28282821276956',
-    },
-    {
-      name: 'Arshpreet Singh',
-      position: 'Member',
-      x: '50.1640625',
-      y: '62.05142325409187',
-    },
-  ]
 
   return (
     <>
@@ -325,6 +285,47 @@ const Team = ({}: Props) => {
                 </Link>
               </div>
             </div>
+            {/* rukaiya  */}
+            <div
+              className="flex flex-col items-center gap-1"
+              data-aos="fade-in"
+              data-aos-delay="1200"
+              data-aos-duration="1000"
+            >
+              <Image
+                alt="members"
+                src={rukaiya}
+                className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
+              />
+              <span className="md:text-[20px] text-[14px] font-bold text-white">
+                Rukaiya Hasan
+              </span>
+              <span className="md:text-[16px] text-[12px] font-normal text-white">
+                Content Head
+              </span>
+              <div className="flex justify-around gap-4">
+                <Link
+                  href={'https://www.linkedin.com/in/rukaiya-bano-814908209/'}
+                >
+                  <Image
+                    src={linkedin}
+                    alt="mane"
+                    className="w-[20px] md:w-[40px]"
+                  />
+                </Link>
+                <Link
+                  href={
+                    'https://instagram.com/rukaiya.rk24?igshid=MzRlODBiNWFlZA=='
+                  }
+                >
+                  <Image
+                    src={insta}
+                    alt="mane"
+                    className="w-[20px] md:w-[40px]"
+                  />
+                </Link>
+              </div>
+            </div>
             {/* anamika  */}
             <div
               className="flex flex-col items-center gap-1"
@@ -506,9 +507,6 @@ const Team = ({}: Props) => {
               data-aos-delay="0"
               data-aos-duration="1000"
             />
-            {tags.map((tag, i) => (
-              <Dot tag={tag} key={i} />
-            ))}
           </div>
         </section>
       </section>
