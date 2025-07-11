@@ -1,7 +1,7 @@
-import aryan from '@/app/img/members/Aryan.png'
-import sarthak from '@/app/img/members/Sarthak.png'
-import sharad from '@/app/img/members/Sharad.png'
-import shruti from '@/app/img/members/shruti.png'
+import urvashi from '@/app/img/members/urvashi.jpeg'
+import prabel from '@/app/img/members/prabel.jpg'
+import shubhi from '@/app/img/members/shubhi.jpeg'
+import brijesh from '@/app/img/members/brijesh.jpeg'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -14,14 +14,14 @@ const Team = ({}: Props) => {
         <div className="md:w-5/12 grid grid-cols-2 gap-x-12 gap-y-16 md:h-[90%]">
           <div className="border relative w-[115px] h-[125px]  md:w-[180px] md:h-[205px] flex flex-col justify-end ml-5" data-aos="zoom-in" data-aos-delay="10" data-aos-duration="1000">
             <Image
-              src={sarthak}
+              src={prabel}
               alt="Member"
-              className="absolute -top-8 -right-6 w-[170px]"
+              className="absolute -top-[110px] -right-6 w-[170px] "
               
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
-                Sarthak Gour
+                Prabel Singh
               </p>
               <p className="flex items-center gap-1 text-[12px]">
                 <svg
@@ -64,13 +64,13 @@ const Team = ({}: Props) => {
           </div>
           <div className="border relative w-[115px] h-[125px]  md:w-[180px] md:h-[205px] flex flex-col justify-end mt-10" data-aos="zoom-in" data-aos-delay="110" data-aos-duration="1000">
             <Image
-              src={aryan}
+              src={urvashi}
               alt="Member"
-              className="absolute -top-8 -right-6 w-[170px]"
+              className="absolute -top-[110px] -right-6 w-[170px]"
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
-                Aryan Sadana
+                Urvashi Singh
               </p>
               <p className="flex items-center gap-1">
                 {' '}
@@ -114,13 +114,13 @@ const Team = ({}: Props) => {
           </div>
           <div className="border relative w-[115px] h-[125px]  md:w-[180px] md:h-[205px] flex flex-col justify-end ml-10 -mt-12" data-aos="zoom-in" data-aos-delay="210" data-aos-duration="1000">
             <Image
-              src={sharad}
+              src={shubhi}
               alt="Member"
-              className="absolute -top-8 -right-6 w-[170px]"
+              className="absolute -top-[70px] -right-6 w-[170px]"
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
-                Sharad Tripathi
+                Shubhi Upadhyay
               </p>
               <p className="flex items-center gap-1">
                 {' '}
@@ -164,13 +164,13 @@ const Team = ({}: Props) => {
           </div>
           <div className="border relative w-[115px] h-[125px]  md:w-[180px] md:h-[205px] flex flex-col justify-end ml-5" data-aos="zoom-in" data-aos-delay="310" data-aos-duration="1000">
             <Image
-              src={shruti}
+              src={brijesh}
               alt="Member"
               className="absolute -top-8 -right-6 w-[170px]"
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
-                Shruti Shastri
+                Brijesh Tomar
               </p>
               <p className="flex items-center gap-1">
                 <svg

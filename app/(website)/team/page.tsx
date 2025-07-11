@@ -1,17 +1,18 @@
 'use client'
 import Image from 'next/image'
 import React, { useRef, useState, MutableRefObject } from 'react'
-import sharad from '@/app/img/members/Sharad.png'
-import aryan from '@/app/img/members/Aryan.png'
-import sarthak from '@/app/img/members/Sarthak.png'
+import shubhi from '@/app/img/members/shubhi.jpeg'
+import urvashi from '@/app/img/members/urvashi.jpeg'
+import prabel from '@/app/img/members/prabel.jpg'
 import Link from 'next/link'
-import shruti from '@/app/img/members/shruti.png'
-import anamika from '@/app/img/members/anamika.png'
-import archi from '@/app/img/members/archi.png'
-import muskan from '@/app/img/members/muskan.png'
-import kunal from '@/app/img/members/kunal.png'
-import rukaiya from '@/app/img/members/rukaiya.png'
-import group from '@/app/img/members/Group.png'
+import brijesh from '@/app/img/members/brijesh.jpeg'
+import shreyansh from '@/app/img/members/shreyansh.png'
+import shashank from '@/app/img/members/shasank.jpeg'
+import suyash from '@/app/img/members/suyash.jpeg'
+import jay from '@/app/img/members/jay.jpg'
+import ritik from '@/app/img/members/ritik.png'
+import om from '@/app/img/members/om.jpeg'
+import group from '@/app/img/members/Group.jpg'
 import linkedin from '@/app/img/Linkedin.svg'
 import insta from '@/app/img/Instagram.svg'
 
@@ -45,11 +46,11 @@ const Team = ({}: Props) => {
           <div className="flex items-center flex-col gap-1 mb-8 md:hidden">
             <Image
               alt="members"
-              src={sarthak}
+              src={prabel}
               className="md:w-[160px] md:h-[160px] w-[80px] h-[80px] rounded-[50%] object-contain object-top"
             />
             <span className="md:text-[20px] text-[14px] font-bold text-white">
-              Sarthak Gour
+              Prabel Singh
             </span>
             <span className="md:text-[18px] text-[12px] font-normal text-white">
               President
@@ -57,7 +58,7 @@ const Team = ({}: Props) => {
             <div className="flex justify-around gap-4">
               <Link
                 target="_blank"
-                href={'https://www.linkedin.com/in/sarthak-gour-abb576179/'}
+                href={'https://www.linkedin.com/in/prabal-pratap-singh-jadon-2a3152252/'}
               >
                 <Image
                   src={linkedin}
@@ -67,7 +68,7 @@ const Team = ({}: Props) => {
               </Link>
               <Link
                 target="_blank"
-                href={'https://www.instagram.com/ft.srthk/?hl=en'}
+                href={'https://www.instagram.com/prabal_singh_019/'}
               >
                 <Image
                   src={insta}
@@ -86,11 +87,11 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={sharad}
+                src={shubhi}
                 className="md:w-[160px] md:h-[160px] w-[80px] h-[80px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Sharad Tripathi
+                Shubhi Upadhyay
               </span>
               <span className="md:text-[18px] text-[12px] font-normal text-white">
                 Vice President
@@ -98,7 +99,7 @@ const Team = ({}: Props) => {
               <div className="flex justify-around gap-4">
                 <Link
                   target="_blank"
-                  href={'https://www.linkedin.com/in/sharadtripathi/'}
+                  href={'https://www.linkedin.com/in/shubhi-upadhyay-66707b24a/'}
                 >
                   <Image
                     src={linkedin}
@@ -109,7 +110,7 @@ const Team = ({}: Props) => {
                 <Link
                   target="_blank"
                   href={
-                    'https://instagram.com/_tripathi_sharad?igshid=MzRlODBiNWFlZA=='
+                    'https://www.instagram.com/shubhii05_/'
                   }
                 >
                   <Image
@@ -128,11 +129,11 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={sarthak}
+                src={prabel}
                 className="md:w-[160px] md:h-[160px] w-[80px] h-[80px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Sarthak Gour
+                Prabel Singh
               </span>
               <span className="md:text-[18px] text-[12px] font-normal text-white">
                 President
@@ -140,7 +141,7 @@ const Team = ({}: Props) => {
               <div className="flex justify-around gap-4">
                 <Link
                   target="_blank"
-                  href={'https://www.linkedin.com/in/sarthak-gour-abb576179/'}
+                  href={'https://www.linkedin.com/in/prabal-pratap-singh-jadon-2a3152252/'}
                 >
                   <Image
                     src={linkedin}
@@ -150,7 +151,7 @@ const Team = ({}: Props) => {
                 </Link>
                 <Link
                   target="_blank"
-                  href={'https://www.instagram.com/ft.srthk/?hl=en'}
+                  href={'https://www.instagram.com/prabal_singh_019'}
                 >
                   <Image
                     src={insta}
@@ -168,17 +169,17 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={aryan}
+                src={urvashi}
                 className="md:w-[160px] md:h-[160px] w-[80px] h-[80px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Aryan Sadana
+                Urvashi Singh
               </span>
               <span className="md:text-[18px] text-[12px] font-normal text-white">
                 Vice Precident
               </span>
               <div className="flex justify-around gap-4">
-                <Link href={'https://www.linkedin.com/in/aryansadana/'}>
+                <Link href={'https://www.linkedin.com/in/urvashi-singh-25495a25a/'}>
                   <Image
                     src={linkedin}
                     alt="mane"
@@ -188,7 +189,7 @@ const Team = ({}: Props) => {
                 <Link
                   target="_blank"
                   href={
-                    'https://instagram.com/aryansxdana?igshid=MzRlODBiNWFlZA=='
+                    'https://www.instagram.com/__.urvashiiii.__/'
                   }
                 >
                   <Image
@@ -210,11 +211,11 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={shruti}
+                src={brijesh}
                 className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Shruti Shastri
+                Brijesh Tomar
               </span>
               <span className="md:text-[16px] text-[12px] font-normal text-white">
                 Marketing Head
@@ -223,7 +224,7 @@ const Team = ({}: Props) => {
                 <Link
                   target="_blank"
                   href={
-                    'https://instagram.com/kunal__shukla____?igshid=MzRlODBiNWFlZA=='
+                    'https://www.linkedin.com/in/brijesh-tomar-60a8b2282/'
                   }
                 >
                   <Image
@@ -235,7 +236,7 @@ const Team = ({}: Props) => {
                 <Link
                   target="_blank"
                   href={
-                    'https://instagram.com/__shruti_s__?igshid=MzRlODBiNWFlZA=='
+                    'https://www.instagram.com/brijeshtomar_11/'
                   }
                 >
                   <Image
@@ -255,18 +256,18 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={rukaiya}
+                src={ritik}
                 className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Rukaiya Hasan
+                Ritik Sharma
               </span>
               <span className="md:text-[16px] text-[12px] font-normal text-white">
                 Management Head
               </span>
               <div className="flex justify-around gap-4">
                 <Link
-                  href={'https://www.linkedin.com/in/rukaiya-bano-814908209/'}
+                  href={'https://www.linkedin.com/in/ritik-sharma-a7a780259/'}
                 >
                   <Image
                     src={linkedin}
@@ -276,7 +277,7 @@ const Team = ({}: Props) => {
                 </Link>
                 <Link
                   href={
-                    'https://instagram.com/rukaiya.rk24?igshid=MzRlODBiNWFlZA=='
+                    'https://www.instagram.com/branded_pandit_ji__/'
                   }
                 >
                   <Image
@@ -296,18 +297,18 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={rukaiya}
+                src={om}
                 className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Rukaiya Hasan
+                Om Jain
               </span>
               <span className="md:text-[16px] text-[12px] font-normal text-white">
                 Content Head
               </span>
               <div className="flex justify-around gap-4">
                 <Link
-                  href={'https://www.linkedin.com/in/rukaiya-bano-814908209/'}
+                  href={'https://www.linkedin.com/in/om-jain-28b168296/'}
                 >
                   <Image
                     src={linkedin}
@@ -317,7 +318,7 @@ const Team = ({}: Props) => {
                 </Link>
                 <Link
                   href={
-                    'https://instagram.com/rukaiya.rk24?igshid=MzRlODBiNWFlZA=='
+                    '#'
                   }
                 >
                   <Image
@@ -337,17 +338,17 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={anamika}
+                src={shreyansh}
                 className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Anamika Jain
+                Shreyansh Shukla
               </span>
               <span className="md:text-[16px] text-[12px] font-normal text-white">
                 Tech Head
               </span>
               <div className="flex justify-around gap-4">
-                <Link href={'https://www.linkedin.com/in/anamika-jain1/'}>
+                <Link href={'https://www.linkedin.com/in/shreyanshs31/'}>
                   <Image
                     src={linkedin}
                     alt="mane"
@@ -356,7 +357,7 @@ const Team = ({}: Props) => {
                 </Link>
                 <Link
                   href={
-                    'https://instagram.com/__anamika.jain?igshid=MzRlODBiNWFlZA=='
+                    'https://instagram.com/shreyanshs31_'
                   }
                 >
                   <Image
@@ -376,11 +377,11 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={archi}
+                src={shashank}
                 className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Archi Patle
+                Shashank Sharma
               </span>
               <span className="md:text-[16px] text-[12px] font-normal text-white">
                 Finance Head
@@ -388,7 +389,7 @@ const Team = ({}: Props) => {
               <div className="flex justify-around gap-4">
                 <Link
                   target="_blank"
-                  href={'https://www.linkedin.com/in/archi-patle-243557225/'}
+                  href={'https://www.linkedin.com/in/shashank-shekhar-750288247/'}
                 >
                   <Image
                     src={linkedin}
@@ -399,7 +400,7 @@ const Team = ({}: Props) => {
                 <Link
                   target="_blank"
                   href={
-                    'https://instagram.com/archi_.7?igshid=MzRlODBiNWFlZA=='
+                    'https://www.instagram.com/sshhashank/'
                   }
                 >
                   <Image
@@ -419,11 +420,11 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={muskan}
+                src={suyash}
                 className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Muskan Adwani
+                Suyash Pawar
               </span>
               <span className="md:text-[16px] text-[12px] font-normal text-white">
                 Pr & Funds Head
@@ -431,7 +432,7 @@ const Team = ({}: Props) => {
               <div className="flex justify-around gap-4">
                 <Link
                   target="_blank"
-                  href={'https://www.linkedin.com/in/muskan-adwani-0b2147213/'}
+                  href={'https://www.linkedin.com/in/suyash-pawar-939bb8257/'}
                 >
                   <Image
                     src={linkedin}
@@ -439,7 +440,7 @@ const Team = ({}: Props) => {
                     className="w-[20px] md:w-[40px]"
                   />
                 </Link>
-                <Link href={'#'} target="_blank">
+                <Link href={'https://www.instagram.com/suyashpawarsp/'} target="_blank">
                   <Image
                     src={insta}
                     alt="mane"
@@ -457,17 +458,17 @@ const Team = ({}: Props) => {
             >
               <Image
                 alt="members"
-                src={kunal}
+                src={jay}
                 className="md:w-[160px] w-[80px] h-[80px] md:h-[160px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Kunal Shukla
+                Jay Prajapati
               </span>
               <span className="md:text-[16px] text-[12px] font-normal text-white">
                 Design Head
               </span>
               <div className="flex justify-around gap-4">
-                <Link href={'https://www.linkedin.com/in/kunalshukla902/'}>
+                <Link href={'https://www.linkedin.com/in/jay-prajapati-144922256/'}>
                   <Image
                     src={linkedin}
                     alt="mane"
@@ -476,7 +477,7 @@ const Team = ({}: Props) => {
                 </Link>
                 <Link
                   href={
-                    'https://instagram.com/kunal__shukla____?igshid=MzRlODBiNWFlZA=='
+                    'https://www.instagram.com/_jayyyy04/'
                   }
                 >
                   <Image
