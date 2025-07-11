@@ -16,7 +16,7 @@ const Team = ({}: Props) => {
             <Image
               src={prabel}
               alt="Member"
-              className="absolute -top-[110px] -right-6 w-[170px] "
+              className="absolute -top-[7rem] -right-6 w-[170px] "
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
@@ -65,7 +65,7 @@ const Team = ({}: Props) => {
             <Image
               src={urvashi}
               alt="Member"
-              className="absolute -top-[110px] -right-6 w-[170px]"
+              className="absolute -top-[7rem] -right-6 w-[170px]"
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
@@ -115,7 +115,7 @@ const Team = ({}: Props) => {
             <Image
               src={shubhi}
               alt="Member"
-              className="absolute -top-[70px] -right-6 w-[170px]"
+              className="absolute -top-[4.5rem] -right-6 w-[170px]"
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
