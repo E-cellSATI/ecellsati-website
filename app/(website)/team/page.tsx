@@ -133,7 +133,7 @@ const Team = ({}: Props) => {
                 className="md:w-[160px] md:h-[160px] w-[80px] h-[80px] rounded-[50%] object-contain object-top"
               />
               <span className="md:text-[20px] text-[14px] font-bold text-white">
-                Prabel Singh
+                Prabal Singh
               </span>
               <span className="md:text-[18px] text-[12px] font-normal text-white">
                 President
