@@ -17,11 +17,10 @@ const Team = ({}: Props) => {
               src={prabel}
               alt="Member"
               className="absolute -top-[110px] -right-6 w-[170px] "
-              
             />
             <div className="flex flex-col my-1 text-white items-center w-full self-end justify-end">
               <p className="md:font-semibold font-normal text-[14px]">
-                Prabel Singh
+                Prabal Singh
               </p>
               <p className="flex items-center gap-1 text-[12px]">
                 <svg
